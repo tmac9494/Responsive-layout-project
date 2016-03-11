@@ -1,0 +1,209 @@
+@media screen and (min-width: 750px) { /****** tablet view *********/
+	/***** General ********/
+
+
+
+	/***************************/
+
+	/***** nav ********/
+
+	.main-nav li {
+		display: inline-block;
+		background: none;
+		margin-right: 5px;
+
+	}
+
+	.nav {
+		text-align: center;
+	}
+
+	.main-nav .name {
+		display: block;
+		/*margin: 0;*/
+
+	}
+
+
+	/***************************/
+
+	/***** banner ********/
+
+	.banner-content img {
+		width: 50%;
+		float: right;
+		margin-left: 1em;
+	}
+
+	.banner {
+		width: 100%;
+	}
+
+	.banner p {
+		padding: 1em;
+		font-size: 1.3em;
+		text-align: left;
+		padding-top: 0;
+	}
+
+
+
+	/***************************/
+
+	/***** cols ********/
+
+	.portfolio-list li {
+		max-width: 50%;
+		margin: 0 auto;
+		float: left;
+		padding: 1em;
+		transition: all .8s;
+	}
+
+	.portfolio-list li:hover {
+		transform: scale(1.1);
+	}
+
+	.portfolio-list p {
+		max-width: 80%;
+	}
+
+
+
+	/***************************/
+
+
+
+
+}
+
+
+@media screen and (min-width: 1050px) { /****** desktop view *********/
+
+	/***** general ********/
+
+	.page-title {
+		font-size: 2em;
+	}
+
+
+
+
+	/***************************/
+
+
+	/***** nav ********/
+
+	.nav-style {
+		background: linear-gradient(#fff,#eee);
+	}
+
+	.main-nav {
+		position: absolute;
+		top: 0;
+		width: 100%;
+		z-index: 1000;
+		box-shadow: 0px 1px 2.5px rgba(0,0,0,0.2);
+	}
+
+	.name {
+		float: left;
+		margin: 16px 0px 0px 12px;
+	}
+
+	.nav  {
+		float: right;
+		width: 30%;
+	}
+
+	.nav-style a {
+		transition: all .5s;
+	}
+
+	.nav-style a:hover {
+		color: #77cccc;
+		border-bottom: 1px solid #ddd;
+		text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+		margin-bottom: -2px;
+	}
+
+	.nav li {
+		margin: 0;
+	}
+
+
+
+
+
+	/***************************/
+
+
+	/***** banner ********/
+	.banner p {
+		font-size: 1.8em;
+		padding: 1.2em;
+		padding-top: 0;
+		margin-top: 83px;
+	}
+
+	.banner-content {
+		margin-top: 55px;
+	}
+
+
+
+
+
+
+
+	/***************************/
+
+
+	/***** portfolio ********/
+
+	.portfolio-list li {
+		width: 33.33%;
+		display: inline-block;
+		padding: 1em;
+	}
+
+	.portfolio-list p {
+		text-align: center;
+		margin: 10px auto;
+		font-size: 1em;
+		max-width: 315px;
+	}
+
+	
+
+
+
+
+	/***************************/
+
+	/***** cols ********/
+
+	.col {
+		width: 80%;
+		margin: 0 auto;
+		transition: all .8s;
+
+	}
+
+	.col li {
+		transition: all .5s;
+	}
+
+	.col:hover {
+		transform: scale(1.05);
+		box-shadow: 2px 2px 8px rgba(0,0,0,0.3),
+					-2px -2px 8px rgba(0,0,0,0.3);
+	}
+
+
+
+	/***************************/
+
+
+
+}
