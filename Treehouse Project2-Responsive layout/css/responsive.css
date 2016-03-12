@@ -1,6 +1,13 @@
 @media screen and (min-width: 750px) { /****** tablet view *********/
 	/***** General ********/
+	body {
+	background: linear-gradient(to top, #000 -50%, #404472 70%, #77cccc);
+	}
 
+	.page-title {
+		width: 50%;
+		padding: 5px;
+	}
 
 
 	/***************************/
@@ -11,6 +18,9 @@
 		display: inline-block;
 		background: none;
 		margin-right: 5px;
+		border-radius: 0px;
+		border: none;
+		box-shadow: none;
 
 	}
 
@@ -20,7 +30,9 @@
 
 	.main-nav .name {
 		display: block;
-		/*margin: 0;*/
+		margin: 0;
+		border: none;
+		width: 100%;
 
 	}
 
@@ -52,6 +64,15 @@
 
 	/***** cols ********/
 
+
+
+
+
+	/***************************/
+
+
+	/***** portfolio ********/
+
 	.portfolio-list li {
 		max-width: 50%;
 		margin: 0 auto;
@@ -59,6 +80,14 @@
 		padding: 1em;
 		transition: all .8s;
 	}
+
+/*	.right {
+		float: right;
+	}
+
+	.left {
+		float: left;
+	}*/
 
 	.portfolio-list li:hover {
 		transform: scale(1.1);
@@ -72,18 +101,99 @@
 
 	/***************************/
 
+	/***** Experience ********/
+
+
+	.exp-list {
+		width: 50%;
+		padding: 1em;
+	}
+
+	.matt {
+		float: left;
+	}
+
+	.free {
+		float: right;
+	}
+
+	.exp-title {
+		margin-top: 0px;
+	}
+
+
+
+
+
+
+	/***************************/
+
+	/***** button ********/
+
+	.button {
+		width: 60%;
+	}
+
+
+
+	/***************************/
+
+
+
+	/***** footer ********/
+
+		.mobile-footer-nav {
+			display: none;
+		}
+
+		.footer-nav {
+			display: inherit;
+			/*width: 100%;*/
+			float: right;
+			margin-right: 20px;
+			margin-top: 25px
+		}
+
+		.footer-nav li {
+			float: left;
+			font-weight: bold;
+			margin-right: 15px;
+			/*height: 71px;*/
+		}
+
+
+		.footer-name {
+			float: left;
+			margin-left: 15px;
+		}
+
+		.footer-nav a {
+			color: black;
+		}
+
+
+
+
+	/***************************/
+
+
 
 
 
 }
 
 
-@media screen and (min-width: 1050px) { /****** desktop view *********/
+@media screen and (min-width: 1000px) { /****** desktop view ***********************************************************/
 
 	/***** general ********/
 
 	.page-title {
-		font-size: 2em;
+		font-size: 3em;
+		margin: 20px auto;
+	}
+
+	*:hover {
+		z-index: 1000;
 	}
 
 
@@ -106,25 +216,28 @@
 		box-shadow: 0px 1px 2.5px rgba(0,0,0,0.2);
 	}
 
-	.name {
+	.main-nav .name {
 		float: left;
-		margin: 16px 0px 0px 12px;
+		margin: 12px 0px 0px 12px;
+		width: 200px;
 	}
 
 	.nav  {
 		float: right;
-		width: 30%;
+		width: 50%;
+		margin: 0;
 	}
 
 	.nav-style a {
-		transition: all .5s;
+		transition: all .7s;
+		padding: 10px 5px;
 	}
 
 	.nav-style a:hover {
-		color: #77cccc;
-		border-bottom: 1px solid #ddd;
-		text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
-		margin-bottom: -2px;
+		color: #f2f2f2;
+		background: black;
+		margin-bottom: -28px;
+		border-radius: 20px;
 	}
 
 	.nav li {
@@ -135,20 +248,23 @@
 
 
 
+
 	/***************************/
 
 
 	/***** banner ********/
-	.banner p {
-		font-size: 1.8em;
+	.banner p,
+	.contact p {
+		font-size: 1.6em;
 		padding: 1.2em;
 		padding-top: 0;
-		margin-top: 83px;
+		margin-top: 100px;
 	}
 
 	.banner-content {
 		margin-top: 55px;
 	}
+
 
 
 
@@ -163,15 +279,62 @@
 
 	.portfolio-list li {
 		width: 33.33%;
-		display: inline-block;
+		height: 400px;
 		padding: 1em;
+		float: none;
+	}
+
+	.portfolio-list li:hover {
+		box-shadow: 1px 1.6px 2px rgba(0,0,0,0.4),
+								-1px 0px 2px rgba(0,0,0,0.4);
 	}
 
 	.portfolio-list p {
 		text-align: center;
 		margin: 10px auto;
 		font-size: 1em;
-		max-width: 315px;
+		width: 100%;
+	}
+
+	.portfolio {
+		position: relative;
+		height: 1000px;
+	}
+
+	.top-right {
+		position: absolute;
+		top: 16%;
+		right: 1%;
+	}
+
+	.top-left {
+		position: absolute;
+		top: 16%;
+		left: 1%;
+	}
+
+	.top-middle {
+		position: absolute;
+		top: 16%;
+		left: 33.4%;
+	}
+
+	.bottom-right {
+		position: absolute;
+		bottom: 4%;
+		right: 1%;
+	}
+
+	.bottom-left {
+		position: absolute;
+		bottom: 4%;
+		left: 1%;
+	}
+
+	.bottom-middle {
+		position: absolute;
+		bottom: 4%;
+		left: 33.4%;
 	}
 
 	
@@ -181,28 +344,131 @@
 
 	/***************************/
 
+	/***** Experience ********/
+
+	.exp-list p {
+		font-size: 1em;
+	}
+
+	.exp-title {
+		font-size: 1.4em;
+	}
+
+	.exp-list {
+		opacity: .5;
+		transition: all .6s;
+	}
+
+	.exp-list:hover {
+		opacity: 1;
+		transform: scale(1.04);
+	}
+
+
+
+
+
+
+	/***************************/
+
+
 	/***** cols ********/
 
 	.col {
-		width: 80%;
+		width: 82%;
 		margin: 0 auto;
 		transition: all .8s;
+		opacity: .6;
 
 	}
 
-	.col li {
+	.col li, img {
+		opacity: .5;
 		transition: all .5s;
+	}
+
+	.col li:hover {
+		opacity: 1;
+		background: #f2f2f2;
+		border: 1px solid #ddd;
+		border-radius: 10px;
+		padding: 1em;
+	}
+
+	.contact li {
+		opacity: 1;
 	}
 
 	.col:hover {
 		transform: scale(1.05);
 		box-shadow: 2px 2px 8px rgba(0,0,0,0.3),
-					-2px -2px 8px rgba(0,0,0,0.3);
+								-2px -2px 8px rgba(0,0,0,0.3);
+		border-radius: 10px;
+		opacity: 100;
 	}
 
 
 
 	/***************************/
+
+	/***** button ********/
+
+	.button {
+		width: 40%;
+		opacity: .5;
+		transition: all .55s;
+	}
+
+	.button:hover {
+		transform: scale(1.1);
+		opacity: 1;
+		background: black;
+		color: #f2f2f2;
+		border: 1px solid black;
+		box-shadow: 1px 2px 4px rgba(0,0,0,0.3);
+	}
+
+	.button:active {
+		transform: scale(1);
+		box-shadow: none;
+	}
+
+
+
+	/***************************/
+
+	/********** FIXES **********/
+
+	.exp-list li { /*** opacity fix for experience list*****/
+		opacity: 1;
+	}
+
+	.exp-list li:hover {
+		border: none;
+		border-radius: 3.6px;
+	}
+
+	 .exp-list .mattress:hover {
+		background: #dd0000;
+	}
+
+	.exp-list .freelance:hover {
+		background: #9a9a9a;
+	}
+
+
+	.banner:hover {
+		transform: none;
+		border-radius: 0px;
+	}
+
+
+	.banner {
+		opacity: 1;
+	}
+
+	/***************************/
+
 
 
 
