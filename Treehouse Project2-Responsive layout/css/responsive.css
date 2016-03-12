@@ -158,6 +158,8 @@
 	.contact-details {
 		font-size: 1.35em;
 		padding-bottom: 25px;
+		width: 60%;
+		margin: auto;
 	}
 
 
@@ -425,6 +427,7 @@
 
 	.col {
 		width: 82%;
+		max-width: 1390px;
 		margin: 0 auto;
 		transition: all .8s;
 		opacity: .6;
@@ -444,10 +447,6 @@
 		padding: 1em;
 	}
 
-	.contact li {
-		opacity: 1;
-	}
-
 	.col:hover {
 		transform: scale(1.05);
 		box-shadow: 2px 2px 8px rgba(0,0,0,0.3),
@@ -459,6 +458,21 @@
 
 
 	/***************************/
+
+	/***** contact ********/
+
+	.contact li {
+		opacity: 1;
+	}
+
+	.contact-details {
+		width: 50%;
+		margin-bottom: 25px;
+	}
+
+
+	/***************************/
+
 
 	/***** button ********/
 
