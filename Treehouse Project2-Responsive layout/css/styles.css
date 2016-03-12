@@ -189,7 +189,7 @@ p {
 	text-shadow: 1px 2px 2px rgba(0,0,0,0.38);
 }
 
-.logo img {
+.logo {
 	background: none;
 	border: none;
 	width: 45%;
@@ -228,9 +228,20 @@ p {
 
 /***** contact ********/
 
+.contact p {
+	padding: .5em;
+	font-size: 1.05em;
+}
+
+.contact-details {
+	padding: 1em;
+}
+
 .contact-details li {
 	text-align: center;
 	margin-top: 1em;
+	font-size: 1em;
+	font-weight: bold;
 }
 
 
