@@ -17,7 +17,6 @@ function WidthChange(explain) {
  if (explain.matches) {
 	alert("Hello! I have made this page with the goal to make it as interactive and and interesting to the viewer as possible, without over-doing it. Use the blank space on the sides to scroll up and down without distraction. As you view the site make sure your mouse follows your eyes!! Enjoy!!!!");
 	// WidthChange(explain) = none;
-	return;
 } 
 
 }

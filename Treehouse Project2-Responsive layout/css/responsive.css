@@ -1,5 +1,6 @@
 @media screen and (min-width: 750px) { /****** tablet view *********/
 	/***** General ********/
+
 	body {
 	background: linear-gradient(to top, #000 -50%, #404472 70%, #77cccc);
 	}
@@ -48,7 +49,7 @@
 	}
 
 	.name {
-		padding-top: 12px;
+		padding-top: 5px;
 	}
 
 
@@ -209,6 +210,7 @@
 		.footer-name {
 			float: left;
 			margin-left: 15px;
+			padding: 0em;
 			font-weight: bold;
 			font-size: 1.3em;
 			margin-top: 0;
@@ -240,6 +242,8 @@
 	.page-title {
 		font-size: 3em;
 		margin: 20px auto;
+		width: 100%;
+		margin-top: 12px;
 	}
 
 	*:hover {
@@ -269,26 +273,44 @@
 		width: 200px;
 	}
 
+	.main-nav {
+		overflow: hidden;
+	}
+
 	.nav  {
 		float: right;
 		width: 50%;
 		margin: 0;
+		margin-right: -44px;
 	}
 
 	.nav-style a {
 		transition: all .7s;
-		padding: 10px 5px;
+		padding: 12px 8px;
+		border: 1px solid #bcbcbc;
+		border-bottom: none;
+		border-top: none;
+		margin: -3px;
+		margin-top: 0;
+		margin-bottom: 0;
 	}
 
 	.nav-style a:hover {
-		color: #f2f2f2;
-		background: black;
+		background: rgba(0,0,0,0.22);
 		margin-bottom: -28px;
-		border-radius: 20px;
+		/*border-radius: 20px;*/
 	}
 
 	.nav li {
 		margin: 0;
+	}
+
+	.nav-style li {
+		padding: 0;
+	}
+
+	.name {
+		padding: 0;
 	}
 
 
@@ -334,6 +356,10 @@
 	.portfolio-list li:hover {
 		box-shadow: 1px 1.6px 2px rgba(0,0,0,0.4),
 								-1px 0px 2px rgba(0,0,0,0.4);
+		border-bottom: 3.5px solid #77cccc;
+		border-left: 1px solid #77cccc;
+		border-right: 1px solid #77cccc;
+		border-radius: 10px;
 	}
 
 	.portfolio-list p {
@@ -442,8 +468,6 @@
 	.col li:hover {
 		opacity: 1;
 		background: #f2f2f2;
-		border: 1px solid #ddd;
-		border-radius: 10px;
 		padding: 1em;
 	}
 
@@ -463,6 +487,10 @@
 
 	.contact li {
 		opacity: 1;
+	}
+
+	.contact li:hover {
+		border-radius: 12px;
 	}
 
 	.contact-details {
@@ -503,8 +531,28 @@
 	/********** Footer **********/
 
 	.footer-nav li {
-		margin-right: 10px;
+		padding: 0;
+		margin: 0;
 	}
+
+	.footer-nav a {
+		padding: 2px 5px;
+		margin: 0;
+		border: none;
+	}
+
+	.footer-nav a:hover {
+		color: #f2f2f2;
+		background: #000;
+		border-radius: 16px;
+	}
+
+	.footer-nav {
+		margin: 0;
+		margin-right: 42px;
+	}
+
+
 
 
 
@@ -538,6 +586,10 @@
 
 
 	.banner {
+		opacity: 1;
+	}
+
+	.profile-pic {
 		opacity: 1;
 	}
 

@@ -34,27 +34,48 @@ img {
 .page-title,
 p {
 	text-align: center;
-	margin: 35px auto;
+	margin: 22px auto;
 }
 
 .page-title {
 	text-align: center;
-	border-bottom: 1.7px solid #bbb;
+	border: 1.7px solid #777;
 	padding-bottom: 0;
-	color: #22aaaa;
+	color: #77dddd;
 	width: 65%;
 	/*margin: auto;*/
 	text-shadow: 1px 1px 2px rgba(0,0,0,0.75);
 	font-size: 2.5em;
-	background: #ccc;
+	font-weight: normal;
+	background: #9b9b9b;
 	border-top-right-radius: 10px;
 	border-top-left-radius: 10px;
 }
 
+/***** FONTS ********/
+	.name,
+	.footer-name {
+		font-family: 'Pacifico';
+	}
+
+	.page-title {
+		font-family: 'Passion One';
+	}
+
+	p,
+	.button,
+	.nav-style li {
+		font-family: 'Fira Sans';
+	}
+
+	.portfolio-titles {
+		font-family: 'Passion One';
+	}
 
 
 
 
+/***************************/
 
 /***************************/
 
@@ -247,6 +268,13 @@ p {
 	font-weight: bold;
 }
 
+.contact-details a {
+	color: #229999;
+}
+
+.contact-details a:hover {
+	opacity: .75;
+}
 
 
 /***************************/
@@ -256,7 +284,7 @@ p {
 .footer-name {
 	font-size: 1em;
 	/*margin-top: 25px;*/
-	padding: 1em;
+	margin-left: 8px;
 }
 
 .footer-nav {
@@ -265,7 +293,8 @@ p {
 
 .mobile-footer-nav li{
 	float: right;
-	padding: 1em;
+	margin-right: 8px;
+	margin-top: 5px;
 	font-weight: bold;
 }
 
