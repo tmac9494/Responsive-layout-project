@@ -1,0 +1,316 @@
+/***** General ********/
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: linear-gradient(to top,#333, #eee);
+}
+
+ul {
+	list-style: none;
+	padding-left: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	padding: 5px;
+	border: 1px solid #339999;
+	border-radius: 1.5px;
+	background: white;
+	box-shadow: 1px 2px 2px #bbb,
+						 -1px 0px 2px #bbb;
+}
+
+.clearfix {
+	content:"";
+	display: table;
+	clear: both;
+}
+
+.page-title,
+p {
+	text-align: center;
+	margin: 22px auto;
+}
+
+.page-title {
+	text-align: center;
+	border: 1.7px solid #777;
+	padding-bottom: 0;
+	color: #77dddd;
+	width: 65%;
+	/*margin: auto;*/
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.75);
+	font-size: 2.5em;
+	font-weight: normal;
+	background: #9b9b9b;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+
+/***** FONTS ********/
+	.name,
+	.footer-name {
+		font-family: 'Pacifico';
+	}
+
+	.page-title {
+		font-family: 'Passion One';
+	}
+
+	p,
+	.button,
+	.nav-style li {
+		font-family: 'Fira Sans';
+	}
+
+	.portfolio-titles {
+		font-family: 'Passion One';
+	}
+
+
+
+
+/***************************/
+
+/***************************/
+
+/***** NAV ********/
+
+.name {
+	border-bottom: 1.5px solid #ccc;
+	width: 80%;
+	margin: 16px auto;
+}
+
+.main-nav li {
+	font-weight: bold;
+	margin-top: 7px;
+	padding: 8px;
+	text-align: center;
+	border-radius: 6px;
+	border: 1px solid rgba(0,0,0,0.8);
+	background: linear-gradient(to top, #9b9b9b, #dfdfdf);
+	box-shadow: 1px 1px 2px rgba(0,0,0,0.4);
+}
+
+.main-nav a {
+	color: black;
+	display: block;
+}
+
+.nav {
+	margin: 1em auto;
+	width: 70%;
+}
+
+.main-nav .name {
+	background: none;
+	font-size: 1.5em;
+	text-align: center;
+}
+
+
+
+/***************************/
+
+/***** banner ********/
+
+.banner-content {
+	margin: 0;
+	text-align: center;
+	padding: 0;
+	/*max-width: 100%;*/
+}
+
+.banner-content img {
+	width: 100%;
+	height: auto;
+}
+
+
+
+
+/***************************/
+
+/***** cols ********/
+
+.col {
+	padding: 1em;
+	background: linear-gradient(#eee,#ccc);
+	border-top: 1px solid #bbb;
+}
+
+
+/***************************/
+
+/***** Portfolio ********/
+
+.portfolio-list img {
+	width: 100%;
+	height: auto;
+}
+
+.portfolio-titles {
+	text-align: center;
+	margin: 30px 0;
+	color: #404472;
+	text-shadow: 1px 1px 1px #999;
+}
+
+.portfolio-list li {
+	padding-bottom: 35px;
+}
+
+
+/***************************/
+
+/***** Experience ********/
+
+.exp-list {
+	/*background: white;*/
+}
+
+.exp-list li {
+	border-bottom: 1px dotted #bbb;
+	padding: 1em;
+}
+
+.exp-list p {
+	font-size: 1em;
+}
+
+.exp-title {
+	margin-top: 50px;
+	border: none;
+	text-align: center;
+	border-radius: 3px;
+	text-shadow: 1px 2px 2px rgba(0,0,0,0.38)
+}
+
+.mattress {
+	background: #dd0000;
+	color: white;
+	border-radius: 3px;
+}
+
+.freelance {
+	background: #9a9a9a;
+	color: #ecde00;
+	border-radius: 3px;
+}
+
+.mattress p,
+.freelance p {
+	font-size: 1em;
+	text-shadow: 1px 2px 2px rgba(0,0,0,0.38);
+}
+
+.logo {
+	background: none;
+	border: none;
+	width: 45%;
+	display: block;
+	margin: auto;
+	box-shadow: none;
+	text-align: center;
+}
+
+
+
+
+
+/***************************/
+
+/***** button ********/
+
+.button {
+	font-size: 1.1em;
+	font-weight: bold;
+	color: black;
+	border: 1.5px solid black;
+	display: block;
+	width: 80%;
+	padding: 5px;
+	border-radius: 3px;
+}
+
+
+
+
+
+/***************************/
+
+
+
+/***** contact ********/
+
+.contact p {
+	padding: .5em;
+	font-size: 1.05em;
+}
+
+.contact-details {
+	padding: 1em;
+	border: 1px dotted #aaa;
+	border-left: none;
+	border-right: none;
+}
+
+.contact-details li {
+	text-align: center;
+	margin-top: 1em;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+.contact-details a {
+	color: #229999;
+}
+
+.contact-details a:hover {
+	opacity: .75;
+}
+
+
+/***************************/
+
+
+/***** footer-navs ********/
+.footer-name {
+	font-size: 1em;
+	/*margin-top: 25px;*/
+	margin-left: 8px;
+}
+
+.footer-nav {
+	display: none;
+}
+
+.mobile-footer-nav li{
+	float: right;
+	margin-right: 8px;
+	margin-top: 5px;
+	font-weight: bold;
+}
+
+.mobile-footer-nav .footer-name {
+	float: left;
+}
+
+.mobile-footer-nav a {
+	color: black;
+}
+
+.main-footer {
+	background: linear-gradient(#fff,#eee);
+	width: 100%;
+	border-top: 1px solid #aaa;
+}
+
+
+/***************************/

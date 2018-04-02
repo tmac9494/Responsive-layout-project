@@ -1,0 +1,601 @@
+@media screen and (min-width: 768px) { /****** tablet view *********/
+	/***** General ********/
+
+	body {
+	background: linear-gradient(to top, #000 -50%, #404472 70%, #77cccc);
+	}
+
+	.page-title {
+		width: 50%;
+		padding: 5px;
+	}
+
+
+	/***************************/
+
+	/***** nav ********/
+
+
+	.nav-style {
+		background: linear-gradient(#fff,#eee);
+	}
+
+	.main-nav li {
+		display: inline-block;
+		background: none;
+		/*margin-right: 5px;*/
+		border-radius: 0px;
+		border: none;
+		box-shadow: none;
+
+	}
+
+	.main-nav a {
+		display: block;
+		padding: 5px;
+	}
+
+	.nav {
+		text-align: center;
+		margin: 0 auto;
+	}
+
+	.main-nav .name {
+		display: block;
+		margin: 0;
+		border: none;
+		width: 100%;
+
+	}
+
+	.name {
+		padding-top: 5px;
+	}
+
+
+	/***************************/
+
+	/***** banner ********/
+
+	.banner-content img {
+		width: 50%;
+		float: right;
+		margin-left: 1em;
+	}
+
+	.banner {
+		width: 100%;
+	}
+
+	.banner p {
+		padding: 1em;
+		font-size: 1.3em;
+		text-align: left;
+		padding-top: 0;
+	}
+
+
+
+	/***************************/
+
+	/***** cols ********/
+
+
+
+
+
+	/***************************/
+
+
+	/***** portfolio ********/
+
+	.portfolio-list li {
+		max-width: 50%;
+		margin: 0 auto;
+		float: left;
+		padding: 1em;
+		transition: all .8s;
+	}
+
+/*	.right {
+		float: right;
+	}
+
+	.left {
+		float: left;
+	}*/
+
+	.portfolio-list li:hover {
+		transform: scale(1.1);
+	}
+
+	.portfolio-list p {
+		max-width: 80%;
+	}
+
+
+
+	/***************************/
+
+	/***** Experience ********/
+
+
+	.exp-list {
+		width: 50%;
+		padding: 1em;
+	}
+
+	.matt {
+		float: left;
+	}
+
+	.free {
+		float: right;
+	}
+
+	.exp-title {
+		margin-top: 0px;
+	}
+
+
+
+
+
+
+	/***************************/
+
+	/***** CONTACTS ********/
+
+
+	.contact p {
+		font-size: 1.2em;
+		width: 65%;
+	}
+
+	.contact-list {
+		padding: 1.5em;
+	}
+
+	.contact-details {
+		font-size: 1.35em;
+		padding-bottom: 25px;
+		width: 60%;
+		margin: auto;
+	}
+
+
+	/***************************/
+
+
+	/***** button ********/
+
+	.button {
+		width: 60%;
+	}
+
+
+
+	/***************************/
+
+
+
+	/***** footer ********/
+
+		.mobile-footer-nav {
+			display: none;
+		}
+
+		.main-footer {
+			position: relative;
+		}
+
+		.footer-nav {
+			display: initial;
+			/*width: 100%;*/
+			position: absolute;
+			top: 26%;
+			right: 4%;
+			margin: auto;
+		}
+
+		.footer-nav li {
+			display: inline-block;
+			margin: auto;
+			font-weight: bold;
+			/*margin-right: 15px;*/
+			/*height: 71px;*/
+		}
+
+
+		.footer-name {
+			float: left;
+			margin-left: 15px;
+			padding: 0em;
+			font-weight: bold;
+			font-size: 1.3em;
+			margin-top: 0;
+			margin-bottom: 0;
+		}
+
+		.footer-nav a {
+			color: black;
+			display: block;
+			padding: 5px;
+		}
+
+
+
+
+	/***************************/
+
+
+
+
+
+}
+
+
+@media screen and (min-width: 1024px) { /****** desktop view ***********************************************************/
+
+	/***** general ********/
+
+	.page-title {
+		font-size: 3em;
+		margin: 20px auto;
+		width: 100%;
+		margin-top: 12px;
+	}
+
+	*:hover {
+		z-index: 1000;
+	}
+
+
+
+
+	/***************************/
+
+
+	/***** nav ********/
+
+
+	.main-nav {
+		position: absolute;
+		top: 0;
+		width: 100%;
+		z-index: 1000;
+		box-shadow: 0px 1px 2.5px rgba(0,0,0,0.2);
+	}
+
+	.main-nav .name {
+		float: left;
+		margin: auto;
+		width: 200px;
+	}
+
+	.main-nav {
+		overflow: hidden;
+	}
+
+	.nav  {
+		float: right;
+		width: 50%;
+		margin: 0;
+		margin-right: -44px;
+	}
+
+	.nav-style a {
+		transition: all .7s;
+		padding: 12px 8px;
+		border: 1px solid #bcbcbc;
+		border-bottom: none;
+		border-top: none;
+		margin: -3px;
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+
+	.nav-style a:hover {
+		background: rgba(0,0,0,0.22);
+		margin-bottom: -28px;
+		/*border-radius: 20px;*/
+	}
+
+	.nav li {
+		margin: 0;
+	}
+
+	.nav-style li {
+		padding: 0;
+	}
+
+	.name {
+		padding: 0;
+	}
+
+
+
+
+
+
+	/***************************/
+
+
+	/***** banner ********/
+	.banner p,
+	.contact p {
+		font-size: 1.6em;
+		padding: 1.2em;
+		padding-top: 0;
+		margin-top: 100px;
+	}
+
+	.banner-content {
+		margin-top: 55px;
+	}
+
+
+
+
+
+
+
+
+	/***************************/
+
+
+	/***** portfolio ********/
+
+	.portfolio-list li {
+		width: 33.33%;
+		height: 400px;
+		padding: 1em;
+		float: none;
+	}
+
+	.portfolio-list li:hover {
+		box-shadow: 1px 1.6px 2px rgba(0,0,0,0.4),
+								-1px 0px 2px rgba(0,0,0,0.4);
+		border-bottom: 3.5px solid #77cccc;
+		border-left: 1px solid #77cccc;
+		border-right: 1px solid #77cccc;
+		border-radius: 10px;
+	}
+
+	.portfolio-list p {
+		text-align: center;
+		margin: 10px auto;
+		font-size: 1em;
+		width: 100%;
+	}
+
+	.portfolio {
+		position: relative;
+		height: 1000px;
+	}
+
+	.top-right {
+		position: absolute;
+		top: 16%;
+		right: 1%;
+	}
+
+	.top-left {
+		position: absolute;
+		top: 16%;
+		left: 1%;
+	}
+
+	.top-middle {
+		position: absolute;
+		top: 16%;
+		left: 33.4%;
+	}
+
+	.bottom-right {
+		position: absolute;
+		bottom: 4%;
+		right: 1%;
+	}
+
+	.bottom-left {
+		position: absolute;
+		bottom: 4%;
+		left: 1%;
+	}
+
+	.bottom-middle {
+		position: absolute;
+		bottom: 4%;
+		left: 33.4%;
+	}
+
+	
+
+
+
+
+	/***************************/
+
+	/***** Experience ********/
+
+	.exp-list p {
+		font-size: 1em;
+	}
+
+	.exp-title {
+		font-size: 1.4em;
+	}
+
+	.exp-list {
+		opacity: .5;
+		transition: all .6s;
+	}
+
+	.exp-list:hover {
+		opacity: 1;
+		transform: scale(1.04);
+	}
+
+	.logo:hover {
+		transform: scale(1.12)
+							 rotate(20deg);
+	}
+
+
+
+
+
+	/***************************/
+
+
+	/***** cols ********/
+
+	.col {
+		width: 82%;
+		max-width: 1190px;
+		margin: 0 auto;
+		transition: all .8s;
+		opacity: .6;
+
+	}
+
+	.col li, img {
+		opacity: .5;
+		transition: all .5s;
+	}
+
+	.col li:hover {
+		opacity: 1;
+		background: #f2f2f2;
+		padding: 1em;
+	}
+
+	.col:hover {
+		transform: scale(1.05);
+		box-shadow: 2px 2px 8px rgba(0,0,0,0.3),
+								-2px -2px 8px rgba(0,0,0,0.3);
+		border-radius: 10px;
+		opacity: 1;
+	}
+
+
+
+	/***************************/
+
+	/***** contact ********/
+
+	.contact li {
+		opacity: 1;
+	}
+
+	.contact li:hover {
+		border-radius: 12px;
+	}
+
+	.contact-details {
+		width: 50%;
+		margin-bottom: 25px;
+	}
+
+
+	/***************************/
+
+
+	/***** button ********/
+
+	.button {
+		width: 40%;
+		opacity: .5;
+		transition: all .55s;
+	}
+
+	.button:hover {
+		transform: scale(1.1);
+		opacity: 1;
+		background: black;
+		color: #f2f2f2;
+		border: 1px solid black;
+		box-shadow: 1px 2px 4px rgba(0,0,0,0.3);
+	}
+
+	.button:active {
+		transform: scale(1);
+		box-shadow: none;
+	}
+
+
+
+	/***************************/
+
+	/********** Footer **********/
+
+	.footer-nav li {
+		padding: 0;
+		margin: 0;
+	}
+
+	.footer-nav a {
+		padding: 2px 5px;
+		margin: 0;
+		border: none;
+	}
+
+	.footer-nav a:hover {
+		color: #f2f2f2;
+		background: #000;
+		border-radius: 16px;
+	}
+
+	.footer-nav {
+		margin: 0;
+		margin-right: 42px;
+	}
+
+
+
+
+
+
+	/***************************/
+
+	/********** FIXES **********/
+
+	.exp-list li { /*** opacity fix for experience list*****/
+		opacity: 1;
+	}
+
+	.exp-list li:hover {
+		border: none;
+		border-radius: 3.6px;
+	}
+
+	 .exp-list .mattress:hover {
+		background: #dd0000;
+	}
+
+	.exp-list .freelance:hover {
+		background: #9a9a9a;
+	}
+
+
+	.banner:hover {
+		transform: none;
+		border-radius: 0px;
+	}
+
+
+	.banner {
+		opacity: 1;
+	}
+
+	.profile-pic {
+		opacity: 1;
+	}
+
+	/***************************/
+
+
+
+
+}
